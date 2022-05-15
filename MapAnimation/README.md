@@ -14,4 +14,4 @@ The next thing I plan to do is display an overlay of the the actual city, as wel
 
 ## License Information:
 
-MIT License
+<a href="https://github.com/amandapadgett/Portfolio/blob/main/MapAnimation/LICENSE">MIT License</a>
