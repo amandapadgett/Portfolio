@@ -15,3 +15,5 @@ The next thing I plan to do is display an overlay of the the actual city, as wel
 ## License Information:
 
 <a href="https://github.com/amandapadgett/Portfolio/blob/main/MapAnimation/LICENSE">MIT License</a>
+
+<img src="https://github.com/amandapadgett/Portfolio/blob/main/images/Bus_Stops_MITandHarvard.png" width="500" height="auto" />
