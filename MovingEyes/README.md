@@ -16,4 +16,4 @@ I think it would be fun to learn how to make the eyes point to each other when t
 
 <a href="https://github.com/amandapadgett/Portfolio/blob/main/MovingEyes/LICENSE">MIT License</a>
 
-<img src="https://github.com/amandapadgett/Portfolio/blob/main/images/MovingEyes.png" width="500" height="auto />
+<img src="https://github.com/amandapadgett/Portfolio/blob/main/images/MovingEyes.png" width="500" height="auto" />
