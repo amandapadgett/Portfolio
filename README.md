@@ -1,4 +1,6 @@
-# Amanda Padgett's Porfolio
+# Amanda Padgett's Portfolio
+
+Visit my <a href="https://amandapadgett.github.io/Portfolio/index.html"> page</a>.
 
 ## Description
 
