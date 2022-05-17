@@ -3081,7 +3081,8 @@ textarea.form-control-lg {
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #157347;
+  background-color: #15734788;
+  background-color: #654ac7;
   border-color: #146c43;
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
@@ -3311,6 +3312,7 @@ textarea.form-control-lg {
 .btn-outline-success:hover {
   color: #fff;
   background-color: #198754;
+  
   border-color: #198754;
 }
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
@@ -3461,6 +3463,7 @@ textarea.form-control-lg {
 }
 .btn-link:hover {
   color: #0a58ca;
+  color: #fff;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -6440,6 +6443,7 @@ textarea.form-control-lg {
 }
 .link-success:hover, .link-success:focus {
   color: #146c43;
+  color: #654ac7;
 }
 
 .link-info {
