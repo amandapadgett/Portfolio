@@ -89,6 +89,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: 'Raleway', sans-serif;
+  
 }
 
 hr {
@@ -4025,7 +4026,10 @@ textarea.form-control-lg {
   display: block;
 }
 
-/* .navbar { font-family:'Times New Roman', Times, serif !important; } */
+.navbar { 
+  font-family: 'Raleway';
+  font-weight: 400 !important; 
+}
 
 .navbar {
   position: relative;
