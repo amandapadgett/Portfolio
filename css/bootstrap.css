@@ -6455,6 +6455,8 @@ textarea.form-control-lg {
 
 .link-success {
   color: #198754;
+  color: #1e8046;
+  font-weight: 400;
 }
 .link-success:hover, .link-success:focus {
   color: #146c43;
