@@ -4023,6 +4023,8 @@ textarea.form-control-lg {
   display: block;
 }
 
+.navbar { font-family:'Times New Roman', Times, serif !important; }
+
 .navbar {
   position: relative;
   display: flex;
