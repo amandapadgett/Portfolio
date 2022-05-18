@@ -423,11 +423,29 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
+
+.video-container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .video-container {
+    width: 500px;
+    height: 500px;
+  }
+  
+}
+
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
   }
 }
+
+
+
 legend + * {
   clear: left;
 }
