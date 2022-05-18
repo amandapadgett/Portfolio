@@ -12,6 +12,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
 
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
 
 </head>
 <body>
@@ -31,10 +83,10 @@
                 <li><a href="https://www.linkedin.com/in/amandapadgett/" target="_blank" class="text-white">Join me on LinkedIn</a></li>
                 <li><a href="mailto: manda.padgett@gmail.com" target="_blank" class="text-white">Contact me</a></li> -->
               </ul>
-              <div><a href="https://www.linkedin.com/in/amandapadgett/" target=_blank"><img src="./icons/linkedin.svg" alt="linkedIn" width="32" height="32"></a>
-                <a href="https://github.com/amandapadgett" target="_blank"><img src="./icons/github.svg" alt="GitHub" fill=""white" width="32" height="32"></a>
-                <a href="https://twitter.com/amanda_1914" target="_blank"><img src="./icons/twitter.svg"  width="32" height="32"></a>
-                <a href="mailto: manda.padgett@gmail.com" target="_blank"><img src="./icons/envelope-fill.svg" width="32" height="32"></a>
+              <div><a href="https://www.linkedin.com/in/amandapadgett/" style="border:0" target=_blank"><img src="./icons/linkedin.svg" alt="linkedIn" width="36" height="36"></a>
+                <a href="https://github.com/amandapadgett" target="_blank"><img src="./icons/github.svg" alt="GitHub" fill=""white" width="36" height="36"></a>
+                <a href="https://twitter.com/amanda_1914" target="_blank"><img src="./icons/twitter.svg"  width="36" height="36"></a>
+                <a href="mailto: manda.padgett@gmail.com" target="_blank"><img src="./icons/envelope-fill.svg" width="36" height="36"></a>
               </div>
             </div>
           </div>
@@ -67,36 +119,27 @@
     
     <main>
        <div class="row align-items-md-stretch">
-        <div class="col-md-6">
+        <div class="col-md-6"> 
           <div class="h-100 p-5 text-white bg-success rounded-3">
             <div>
-                <img src="images/IMG_3226.jpeg" alt="image of woman in purple shirt" width="500" align-center>
+                <img src="images/IMG_3226.jpeg" alt="image of woman in purple shirt" width="500" class="center">
             </div>
-         
-        </div>
+          </div>
         </div>
        <div class="col-md-6">
-        <div class="h-100 p-5 bg-light border rounded-5">
+          <div class="h-100 p-5 bg-light border rounded-5">
           <h2>Meet Amanda</h2>
           <p class="lead">Hello from rural South Carolina! For the past 24 years my main roles have been mother, homeschooler, and homemaker. Once my four kids were a little older I started working part-time as a  Adobe Lightroom instructor for <a href="https://www.lightroompresets.com" class="link-success" target="_blank">Pretty Presets</a>, and then later as a Quality Assurance analyst in the IT department of the company we homeschool with, <a href="https://classicalconversations.com" class="link-success" target="_blank">Classical Conversations</a>.</p>
 
           <p class="lead"> With my last child now a rising high school junior, I decided to get a jump start on my next adventure - web development! While it has been frustrating at times, I have thorougly enjoyed learning HTML, CSS, JavaScript, the command line, GitHub, and Jest. The projects I am sharing are just a few of the many things we have learned. We have many more modules/months to go and I am excited about the new skills and concepts we will be tackling next.</p>
 
          <p class="lead">You can find me at <a href="https://github.com/amandapadgett" class="link-success target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/amandapadgett/" class="link-success" target="_blank">LinkedIn</a> as amandapadgett. <mark>The best way to contact me is via <a href="mailto: manda.padgett@gmail.com" class="link-success">email</a>.</mark> </p>
-
-         <div>
+       
           <iframe width="560" height="315" src="https://www.youtube.com/embed/GbeSe__3Wj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </main>
 
-      
-    
-    </main>
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -109,9 +152,9 @@
         <p class="text-center text-muted">&copy; Amanda Padgett</p>
       </footer>
     </div>
-    
-  
+     
 
     <script src="js/bootstrap.js"></script>
-</body>
+
+  </body>
 </html>
