@@ -71,6 +71,11 @@
   }
 }
 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -232,10 +237,12 @@ sup {
 
 a {
   color: #0d6efd;
-  text-decoration: underline;
+  color: orange
+  text-decoration: none;
 }
 a:hover {
   color: #0a58ca;
+  color: rgb(250, 0, 200)
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
